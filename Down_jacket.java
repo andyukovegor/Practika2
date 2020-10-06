@@ -1,6 +1,6 @@
 package Andy;
 
-public class Down_jacket extends Ñlothes implements Inter {
+public class Down_jacket extends Clothes implements Inter {
 	int count_long = 70;
 	
 	
