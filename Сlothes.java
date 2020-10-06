@@ -1,6 +1,6 @@
 package Andy;
 
-public abstract class Ñlothes implements Inter {
+public abstract class Clothes implements Inter {
 
 	
 	   private String brand;
@@ -8,12 +8,12 @@ public abstract class Ñlothes implements Inter {
 	   public abstract void material ();
 
 
-	   public Ñlothes() {
+	   public Ã‘lothes() {
 		   this.size = 0;
 		   this.brand = "BRAND";
 	   }
 	   
-	   public Ñlothes(String color, int size) {
+	   public Ã‘lothes(String color, int size) {
 		   this.size = size;
 		   this.brand = color;
 	   }
@@ -22,7 +22,7 @@ public abstract class Ñlothes implements Inter {
 		   System.out.println(brand + "" + size);
 	   }
 	   public void printClass() {
-		   System.out.println("You are in class Ñlothes");
+		   System.out.println("You are in class Ã‘lothes");
 	   }
 	   
 	   public final void NOprint_Data () {
