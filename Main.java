@@ -9,8 +9,8 @@ public class Main {
 	Down_jacket d1 = new Down_jacket ("White" , 15);
 	Down_jacket d2 = new Down_jacket ("Red", 25);
 	
-	List <Ñlothes>  clothes = Arrays.asList(j1, j2, d1, d2);
-	for (Ñlothes i : clothes) {
+	List <Clothes>  clothes = Arrays.asList(j1, j2, d1, d2);
+	for (Clothes i : clothes) {
 		i.print();
 	}
 	
