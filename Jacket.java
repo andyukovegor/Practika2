@@ -1,5 +1,5 @@
 package Andy;
-public class Jacket extends Ñlothes implements Inter {
+public class Jacket extends Clothes implements Inter {
 	int cout_long = 100;
 	@Override
 	public void material() {
