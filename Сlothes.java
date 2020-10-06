@@ -8,12 +8,12 @@ public abstract class Clothes implements Inter {
 	   public abstract void material ();
 
 
-	   public Ñlothes() {
+	   public Clothes() {
 		   this.size = 0;
 		   this.brand = "BRAND";
 	   }
 	   
-	   public Ñlothes(String color, int size) {
+	   public Clothes(String color, int size) {
 		   this.size = size;
 		   this.brand = color;
 	   }
